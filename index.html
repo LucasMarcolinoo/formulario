@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/global.css" />
+    <link rel="stylesheet" href="style/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet"/>
+    <title>Formulário</title>
+  </head>
+  <body>
+    <div class="container flex">
+      <div class="layout-text flex">
+        <div class="container-text">
+          <h1>
+            FICOU COM DÚVIDA? <br/>
+            NOS MANDE MENSAGEM!
+          </h1>
+          <p>
+            caso tenha ficado com qualquer dúvida <br />
+            basta nos mandar uma mensagem e <br />
+            entraremos em contato em menos de 24h.
+          </p>
+        </div>
+      </div>
+
+      <form class="formulario">
+        <div class="form">
+          <input class="form-1 input" placeholder="Nome completo *" type="text"/>
+          <p class="error-1 none">Campo obrigatório</p>
+        </div>
+
+        <div class="form">
+          <input class="form-2 input" placeholder="Email *" type="text" />
+          <p class="error-2 none">Campo obrigatório</p>
+        </div>
+
+        <div class="form">
+          <input class="form-3 input" placeholder="Telefone *" type="text" />
+          <p class="error-3 none">Campo obrigatório</p>
+        </div>
+
+        <div class="form">
+          <textarea placeholder="Mensagem *" name="formulario de mensagem" class="form-4 input" maxlength="170"></textarea>
+          <p class="error-4 none">Campo obrigatório</p>
+        </div>
+        <h2>* campos obrigatorios</h2>
+        <button id="botao">Enviar</button>
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

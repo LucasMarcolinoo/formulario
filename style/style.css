@@ -1,0 +1,92 @@
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-image: url(../src/bg-repeat.jpg);
+    height: 100vh;
+    width: 100%;
+}
+
+.layout-text {
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-text {
+    color: white;
+}
+
+.form {
+    margin: 20px;
+}
+
+.formulario {
+    background-color: white;
+    width: 40%;
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+}
+
+.formulario p{
+    text-align: start;
+    font-size: 10px;
+    margin-left: 50px;
+    color: red;
+}
+
+.formulario h2{
+    color: black;
+    text-align: start;
+    margin-left: 50px;
+}
+
+.container-text p{
+    font-size: 20px;
+}
+
+.input {
+    width: 80%;
+    border: solid 1px black;
+    border-radius: 10px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 5px;
+}
+
+.form-4 {
+    height: 150px;
+    resize: none;
+}
+
+#botao {
+    margin-top: 40px;
+    width: 80%;
+    height: 50px;
+    background-color: #3CCC87;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+/* edits */
+
+.borda-verde {
+    border: 2px solid #3CCC87;
+}
+
+.borda-vermelha {
+    border: 2px solid red;
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
